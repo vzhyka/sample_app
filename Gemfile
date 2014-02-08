@@ -7,6 +7,8 @@ gem 'rails', '3.2.15'
 
 group :development, :test do
 	gem 'sqlite3'
+	gem 'pg'
+	gem 'activerecord-postgresql-adapter'
 	gem 'rspec-rails'
 	gem 'guard-rspec', '1.2.1'
 	gem 'rb-readline', '~> 0.5.0'
